@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical" android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <com.example.kidsalphabetsar.Util.CircularTextView
+        android:id="@+id/textView"
+        android:layout_width="50sp"
+        android:layout_height="50sp"
+        android:textSize="27sp"
+        android:gravity="center"
+        android:padding="3dp"
+        android:textColor="#FFFFFF"
+        android:layout_centerInParent="true"/>
+
+</RelativeLayout>
