@@ -107,7 +107,6 @@ public class TargetRenderer implements GLSurfaceView.Renderer, ArScannerActivity
     private String filename = "";
     private boolean isPatternFound = false;
 
-    private int i = 0;
     private String targetName = "";
 
     public TargetRenderer(ArScannerActivity arScannerActivity,SampleApplicationSession vuforiaAppSession) {
@@ -195,7 +194,7 @@ public class TargetRenderer implements GLSurfaceView.Renderer, ArScannerActivity
 
         for (int tIdx = 0; tIdx < state.getNumTrackableResults(); tIdx++) {
 
-            i++;
+            System.out.println("loop in for");
 
             isPatternFound = true;
             // Get the trackable:
@@ -259,24 +258,11 @@ public class TargetRenderer implements GLSurfaceView.Renderer, ArScannerActivity
 
         }
 
+        System.out.println("loop out for");
+
         targetName = "";
 
         System.out.println("Result name: " + targetName);
-
-        i--;
-
-        if(i<0){
-            i=0;
-        }
-
-        System.out.println("What is I: " + i);
-
-        /*if(i>200){
-            i=10;
-        }
-        if(i<5){
-            i=0;
-        }*/
 
         isInitRenderer = false;
 
