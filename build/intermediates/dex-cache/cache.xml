@@ -1,0 +1,86 @@
+<?xml version="1.0" encoding="utf-8"?>
+<items version="2" >
+
+    <item
+        is-multidex="false"
+        jar="E:\AndroidInstallationFiles\sdk\extras\android\m2repository\com\android\support\support-annotations\23.4.0\support-annotations-23.4.0.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="23.0.2"
+        sha1="ffbe55fdb2bb456b1485831706a9eac3300bb6b8">
+        <dex dex="E:\ArWorkspace\KidsAlphabetsAr\app\build\intermediates\pre-dexed\debug\support-annotations-23.4.0_e7d47c7d30725611c390c8b7e3b62b33c5cd48e2.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="E:\ArWorkspace\KidsAlphabetsAr\app\build\intermediates\exploded-aar\com.android.support\animated-vector-drawable\23.4.0\jars\classes.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="23.0.2"
+        sha1="de4db3785756bfb0915a9f59a9b3f2fea7407be4">
+        <dex dex="E:\ArWorkspace\KidsAlphabetsAr\app\build\intermediates\pre-dexed\debug\com.android.support-animated-vector-drawable-23.4.0_cc6eb5f39279814df80852031d8742e9d0a15ba4.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="E:\ArWorkspace\KidsAlphabetsAr\app\build\intermediates\exploded-aar\com.android.support\appcompat-v7\23.4.0\jars\classes.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="23.0.2"
+        sha1="548f06de403a9409f00554b3ee12a9fdea0e236c">
+        <dex dex="E:\ArWorkspace\KidsAlphabetsAr\app\build\intermediates\pre-dexed\debug\com.android.support-appcompat-v7-23.4.0_7af0e686a6b5375cc9a39f0476318854b06ffa7b.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="E:\ArWorkspace\KidsAlphabetsAr\app\build\intermediates\exploded-aar\com.android.support\support-vector-drawable\23.4.0\jars\classes.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="23.0.2"
+        sha1="c2c594cace5d83a3227b2b6e658ecbfd586d3ed9">
+        <dex dex="E:\ArWorkspace\KidsAlphabetsAr\app\build\intermediates\pre-dexed\debug\com.android.support-support-vector-drawable-23.4.0_ba2eeb8ed78e79f06dcb9666f8c4c71c38a23a23.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="E:\ArWorkspace\KidsAlphabetsAr\app\build\intermediates\exploded-aar\com.android.support\support-v4\23.4.0\jars\libs\internal_impl-23.4.0.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="23.0.2"
+        sha1="ea3c07504d2c8f4b13aa17c45c1b68ed9c1c3674">
+        <dex dex="E:\ArWorkspace\KidsAlphabetsAr\app\build\intermediates\pre-dexed\debug\internal_impl-23.4.0_584ca80c2026ec507e76a87b8a496b2ac0447a39.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="E:\ArWorkspace\KidsAlphabetsAr\app\build\intermediates\exploded-aar\com.android.support\support-v4\23.4.0\jars\classes.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="23.0.2"
+        sha1="67bd36ee9340ec7c254108936ad16b24bed160cc">
+        <dex dex="E:\ArWorkspace\KidsAlphabetsAr\app\build\intermediates\pre-dexed\debug\com.android.support-support-v4-23.4.0_866d88293a325375f4d5e15a61f19b929d531a77.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="E:\ArWorkspace\KidsAlphabetsAr\app\build\intermediates\exploded-aar\com.android.support.constraint\constraint-layout\1.0.0-alpha1\jars\classes.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="23.0.2"
+        sha1="6ea200a19689e637dafc8b8f036734a1b9cbe2b3">
+        <dex dex="E:\ArWorkspace\KidsAlphabetsAr\app\build\intermediates\pre-dexed\debug\com.android.support.constraint-constraint-layout-1.0.0-alpha1_23eece510db0309f9f02b320e504a128fac24be1.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="E:\ArWorkspace\KidsAlphabetsAr\app\libs\Vuforia.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="23.0.2"
+        sha1="ea4d543e6035333459e815f2e49632cafa536b64">
+        <dex dex="E:\ArWorkspace\KidsAlphabetsAr\app\build\intermediates\pre-dexed\debug\Vuforia_7e1caabb4fbe5d2b0479a3ba652297824fb3ba2b.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="E:\AndroidInstallationFiles\Android Studio\gradle\m2repository\com\android\support\constraint\constraint-layout-solver\1.0.0-alpha1\constraint-layout-solver-1.0.0-alpha1.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="23.0.2"
+        sha1="23c28d005ab0c8197f8ee39d63b4dd09949bf9cc">
+        <dex dex="E:\ArWorkspace\KidsAlphabetsAr\app\build\intermediates\pre-dexed\debug\constraint-layout-solver-1.0.0-alpha1_46a18f1e4d26f0200feeedcdd086fec7c401bf09.jar" />
+    </item>
+
+</items>
