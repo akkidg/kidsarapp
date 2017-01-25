@@ -1,5 +1,9 @@
 [
     {
+        "merged": "E:\\Test Workspace\\KidsAlphabetsAr\\app\\build\\intermediates\\res\\merged\\debug\\mipmap-xxhdpi\\ic_launcher.png",
+        "source": "E:\\Test Workspace\\KidsAlphabetsAr\\app\\src\\main\\res\\mipmap-xxhdpi\\ic_launcher.png"
+    },
+    {
         "merged": "E:\\ArWorkspace\\KidsAlphabetsAr\\app\\build\\intermediates\\res\\merged\\debug\\mipmap-xxhdpi\\ic_launcher.png",
         "source": "E:\\ArWorkspace\\KidsAlphabetsAr\\app\\src\\main\\res\\mipmap-xxhdpi\\ic_launcher.png"
     }

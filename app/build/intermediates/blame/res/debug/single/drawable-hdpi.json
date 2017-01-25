@@ -4,12 +4,16 @@
         "source": "E:\\ArWorkspace\\KidsAlphabetsAr\\app\\src\\main\\res\\drawable-hdpi\\btnupperselected.png"
     },
     {
-        "merged": "E:\\ArWorkspace\\KidsAlphabetsAr\\app\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi\\mainbg.png",
-        "source": "E:\\ArWorkspace\\KidsAlphabetsAr\\app\\src\\main\\res\\drawable-hdpi\\mainbg.png"
+        "merged": "E:\\Test Workspace\\KidsAlphabetsAr\\app\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi\\right.png",
+        "source": "E:\\Test Workspace\\KidsAlphabetsAr\\app\\src\\main\\res\\drawable-hdpi\\right.png"
     },
     {
         "merged": "E:\\ArWorkspace\\KidsAlphabetsAr\\app\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi\\btnupper.png",
         "source": "E:\\ArWorkspace\\KidsAlphabetsAr\\app\\src\\main\\res\\drawable-hdpi\\btnupper.png"
+    },
+    {
+        "merged": "E:\\Test Workspace\\KidsAlphabetsAr\\app\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi\\btnupper.png",
+        "source": "E:\\Test Workspace\\KidsAlphabetsAr\\app\\src\\main\\res\\drawable-hdpi\\btnupper.png"
     },
     {
         "merged": "E:\\ArWorkspace\\KidsAlphabetsAr\\app\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi\\btndrawbg.png",
@@ -20,12 +24,12 @@
         "source": "E:\\ArWorkspace\\KidsAlphabetsAr\\app\\src\\main\\res\\drawable-hdpi\\right.png"
     },
     {
-        "merged": "E:\\ArWorkspace\\KidsAlphabetsAr\\app\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi\\eraser.png",
-        "source": "E:\\ArWorkspace\\KidsAlphabetsAr\\app\\src\\main\\res\\drawable-hdpi\\eraser.png"
+        "merged": "E:\\Test Workspace\\KidsAlphabetsAr\\app\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi\\a_small.png",
+        "source": "E:\\Test Workspace\\KidsAlphabetsAr\\app\\src\\main\\res\\drawable-hdpi\\a_small.png"
     },
     {
-        "merged": "E:\\ArWorkspace\\KidsAlphabetsAr\\app\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi\\canvas_bg.png",
-        "source": "E:\\ArWorkspace\\KidsAlphabetsAr\\app\\src\\main\\res\\drawable-hdpi\\canvas_bg.png"
+        "merged": "E:\\Test Workspace\\KidsAlphabetsAr\\app\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi\\btndrawbg.png",
+        "source": "E:\\Test Workspace\\KidsAlphabetsAr\\app\\src\\main\\res\\drawable-hdpi\\btndrawbg.png"
     },
     {
         "merged": "E:\\ArWorkspace\\KidsAlphabetsAr\\app\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi\\btnlower.png",
@@ -36,12 +40,12 @@
         "source": "E:\\ArWorkspace\\KidsAlphabetsAr\\app\\src\\main\\res\\drawable-hdpi\\overlay.png"
     },
     {
-        "merged": "E:\\ArWorkspace\\KidsAlphabetsAr\\app\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi\\btnargb.png",
-        "source": "E:\\ArWorkspace\\KidsAlphabetsAr\\app\\src\\main\\res\\drawable-hdpi\\btnargb.png"
-    },
-    {
         "merged": "E:\\ArWorkspace\\KidsAlphabetsAr\\app\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi\\left.png",
         "source": "E:\\ArWorkspace\\KidsAlphabetsAr\\app\\src\\main\\res\\drawable-hdpi\\left.png"
+    },
+    {
+        "merged": "E:\\Test Workspace\\KidsAlphabetsAr\\app\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi\\mainbg.png",
+        "source": "E:\\Test Workspace\\KidsAlphabetsAr\\app\\src\\main\\res\\drawable-hdpi\\mainbg.png"
     },
     {
         "merged": "E:\\ArWorkspace\\KidsAlphabetsAr\\app\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi\\tracingback.png",
@@ -52,11 +56,67 @@
         "source": "E:\\ArWorkspace\\KidsAlphabetsAr\\app\\src\\main\\res\\drawable-hdpi\\btnlowerselected.png"
     },
     {
+        "merged": "E:\\Test Workspace\\KidsAlphabetsAr\\app\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi\\tracingback.png",
+        "source": "E:\\Test Workspace\\KidsAlphabetsAr\\app\\src\\main\\res\\drawable-hdpi\\tracingback.png"
+    },
+    {
         "merged": "E:\\ArWorkspace\\KidsAlphabetsAr\\app\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi\\drawing_back.png",
         "source": "E:\\ArWorkspace\\KidsAlphabetsAr\\app\\src\\main\\res\\drawable-hdpi\\drawing_back.png"
     },
     {
         "merged": "E:\\ArWorkspace\\KidsAlphabetsAr\\app\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi\\a_small.png",
         "source": "E:\\ArWorkspace\\KidsAlphabetsAr\\app\\src\\main\\res\\drawable-hdpi\\a_small.png"
+    },
+    {
+        "merged": "E:\\Test Workspace\\KidsAlphabetsAr\\app\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi\\btnargb.png",
+        "source": "E:\\Test Workspace\\KidsAlphabetsAr\\app\\src\\main\\res\\drawable-hdpi\\btnargb.png"
+    },
+    {
+        "merged": "E:\\ArWorkspace\\KidsAlphabetsAr\\app\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi\\mainbg.png",
+        "source": "E:\\ArWorkspace\\KidsAlphabetsAr\\app\\src\\main\\res\\drawable-hdpi\\mainbg.png"
+    },
+    {
+        "merged": "E:\\Test Workspace\\KidsAlphabetsAr\\app\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi\\left.png",
+        "source": "E:\\Test Workspace\\KidsAlphabetsAr\\app\\src\\main\\res\\drawable-hdpi\\left.png"
+    },
+    {
+        "merged": "E:\\Test Workspace\\KidsAlphabetsAr\\app\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi\\canvas_bg.png",
+        "source": "E:\\Test Workspace\\KidsAlphabetsAr\\app\\src\\main\\res\\drawable-hdpi\\canvas_bg.png"
+    },
+    {
+        "merged": "E:\\ArWorkspace\\KidsAlphabetsAr\\app\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi\\eraser.png",
+        "source": "E:\\ArWorkspace\\KidsAlphabetsAr\\app\\src\\main\\res\\drawable-hdpi\\eraser.png"
+    },
+    {
+        "merged": "E:\\Test Workspace\\KidsAlphabetsAr\\app\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi\\btnlowerselected.png",
+        "source": "E:\\Test Workspace\\KidsAlphabetsAr\\app\\src\\main\\res\\drawable-hdpi\\btnlowerselected.png"
+    },
+    {
+        "merged": "E:\\Test Workspace\\KidsAlphabetsAr\\app\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi\\overlay.png",
+        "source": "E:\\Test Workspace\\KidsAlphabetsAr\\app\\src\\main\\res\\drawable-hdpi\\overlay.png"
+    },
+    {
+        "merged": "E:\\ArWorkspace\\KidsAlphabetsAr\\app\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi\\canvas_bg.png",
+        "source": "E:\\ArWorkspace\\KidsAlphabetsAr\\app\\src\\main\\res\\drawable-hdpi\\canvas_bg.png"
+    },
+    {
+        "merged": "E:\\Test Workspace\\KidsAlphabetsAr\\app\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi\\btnlower.png",
+        "source": "E:\\Test Workspace\\KidsAlphabetsAr\\app\\src\\main\\res\\drawable-hdpi\\btnlower.png"
+    },
+    {
+        "merged": "E:\\ArWorkspace\\KidsAlphabetsAr\\app\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi\\btnargb.png",
+        "source": "E:\\ArWorkspace\\KidsAlphabetsAr\\app\\src\\main\\res\\drawable-hdpi\\btnargb.png"
+    },
+    {
+        "merged": "E:\\Test Workspace\\KidsAlphabetsAr\\app\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi\\drawing_back.png",
+        "source": "E:\\Test Workspace\\KidsAlphabetsAr\\app\\src\\main\\res\\drawable-hdpi\\drawing_back.png"
+    },
+    {
+        "merged": "E:\\Test Workspace\\KidsAlphabetsAr\\app\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi\\eraser.png",
+        "source": "E:\\Test Workspace\\KidsAlphabetsAr\\app\\src\\main\\res\\drawable-hdpi\\eraser.png"
+    },
+    {
+        "merged": "E:\\Test Workspace\\KidsAlphabetsAr\\app\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi\\btnupperselected.png",
+        "source": "E:\\Test Workspace\\KidsAlphabetsAr\\app\\src\\main\\res\\drawable-hdpi\\btnupperselected.png"
     }
 ]
