@@ -44,7 +44,7 @@ public class TargetRenderer implements GLSurfaceView.Renderer, ArScannerActivity
 
     private static final String LOGTAG = "VideoPlaybackRenderer";
 
-    SampleApplicationSession vuforiaAppSession;
+    private SampleApplicationSession vuforiaAppSession;
 
     // Keyframe and icon rendering specific
     private int keyframeShaderID = 0;
@@ -55,54 +55,54 @@ public class TargetRenderer implements GLSurfaceView.Renderer, ArScannerActivity
     private int keyframeTexSampler2DHandle = 0;
 
     // Trackable dimensionsg
-    Vec3F targetPositiveDimensions[] = new Vec3F[ArScannerActivity.NUM_TARGETS];
+    private Vec3F targetPositiveDimensions[] = new Vec3F[ArScannerActivity.NUM_TARGETS];
 
-    static int NUM_QUAD_INDEX = 6;
+    private static int NUM_QUAD_INDEX = 6;
 
-    double quadVerticesArray[] = {
+    private double quadVerticesArray[] = {
             -1.0f, -1.0f, 0.4f,
             1.0f, -1.0f, 0.4f,
             1.0f, 1.0f, 0.4f,
             -1.0f, 1.0f, 0.4f };
 
-    double quadTexCoordsArray[] = {
+    private double quadTexCoordsArray[] = {
             0.0f, 0.0f, 1.0f, 0.0f,
             1.0f, 1.0f, 0.0f, 1.0f };
 
-    double quadNormalsArray[] = {
+    private double quadNormalsArray[] = {
             0, 0, 1,
             0, 0, 1,
             0, 0, 1,
             0, 0, 1, };
 
-    short quadIndicesArray[] = { 0, 1, 2, 2, 3, 0 };
+    private short quadIndicesArray[] = { 0, 1, 2, 2, 3, 0 };
 
-    Buffer quadVertices, quadTexCoords, quadIndices, quadNormals;
+    private Buffer quadVertices, quadTexCoords, quadIndices, quadNormals;
 
-    public boolean mIsActive = false, isInitRenderer = false;
+    private boolean mIsActive = false, isInitRenderer = false;
 
-    ArScannerActivity mActivity;
+    private ArScannerActivity mActivity;
 
     // Needed to calculate whether a screen tap is inside the target
-    Matrix44F modelViewMatrix[] = new Matrix44F[ArScannerActivity.NUM_TARGETS];
+    private Matrix44F modelViewMatrix[] = new Matrix44F[ArScannerActivity.NUM_TARGETS];
 
-    private Vector<Texture> mTextures = new Vector<Texture>();
+    private Vector<Texture> mTextures = new Vector<>();
 
-    boolean isTracking[] = new boolean[ArScannerActivity.NUM_TARGETS];
+    private boolean isTracking[] = new boolean[ArScannerActivity.NUM_TARGETS];
 
     private int currentTexture = 0;
     private float touchStartX;
-    String letter;
-    String[] images, soundList = null;
-    ArrayList<String> listTextures;
+    private String letter;
+    private String[] images, soundList = null;
+    private ArrayList<String> listTextures;
 
     private ImageTarget imageTarget;
 
-    float[] modelViewMatrixButton, modelViewProjectionButton;
-    int currentTarget = 0;
+    private float[] modelViewMatrixButton, modelViewProjectionButton;
+    private int currentTarget = 0;
     private String prevLetter = "";
 
-    public Sprite mSprite;
+    private Sprite mSprite;
     private MediaPlayer mMediaPlayer;
     private String filename = "";
     private boolean isPatternFound = false;
@@ -167,6 +167,8 @@ public class TargetRenderer implements GLSurfaceView.Renderer, ArScannerActivity
         if (!mIsActive)
             return;
 
+        targetName = "";
+
         //glClearColor(0.0f, 0.0f, 0.0f,1.0f);
 
         // Clear color and depth buffer
@@ -193,8 +195,6 @@ public class TargetRenderer implements GLSurfaceView.Renderer, ArScannerActivity
         isPatternFound = false;
 
         for (int tIdx = 0; tIdx < state.getNumTrackableResults(); tIdx++) {
-
-            System.out.println("loop in for");
 
             isPatternFound = true;
             // Get the trackable:
@@ -236,7 +236,6 @@ public class TargetRenderer implements GLSurfaceView.Renderer, ArScannerActivity
             targetName = currentLetter;
 
             if((mTextures.size()) == 0 || (!prevLetter.equals(currentLetter))){
-                isInitRenderer = false;
                 prevLetter = currentLetter;
                 loadTextures(imageTarget.getName());
             }
@@ -247,26 +246,23 @@ public class TargetRenderer implements GLSurfaceView.Renderer, ArScannerActivity
                 isInitRenderer = false;
             }*/
 
-            if(mTextures.size() > 0 && isInitRenderer){
+            /*if(mTextures.size() > 0 && isInitRenderer){
                 System.out.println("if block 2");
-                startSound(filename,currentTexture);
                 isInitRenderer = false;
-            }
+            }*/
 
             if(mTextures.size() > 0)
                 renderFrame();
-
         }
 
-        System.out.println("loop out for");
-
-        targetName = "";
-
-        System.out.println("Result name: " + targetName);
-
-        isInitRenderer = false;
-
-        //isInitRenderer = false;
+        if(!targetName.equalsIgnoreCase("")){
+            if(isInitRenderer){
+                startSound(filename,currentTexture);
+            }
+            isInitRenderer = false;
+        }else{
+            isInitRenderer = true;
+        }
 
         GLES20.glDisable(GLES20.GL_DEPTH_TEST);
         Renderer.getInstance().end();
@@ -468,7 +464,7 @@ public class TargetRenderer implements GLSurfaceView.Renderer, ArScannerActivity
     }
 
     private void startSound(String filename,int value){
-        AssetFileDescriptor afd = null;
+        AssetFileDescriptor afd;
 
             try {
                 afd = mActivity.getAssets().openFd(filename + "/" + soundList[value]);
